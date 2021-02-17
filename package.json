@@ -1,6 +1,6 @@
 {
   "name": "@lab-code/moonphase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The package allow you to calculate moon phase by date.",
   "files": [
     "lib/**/*"
