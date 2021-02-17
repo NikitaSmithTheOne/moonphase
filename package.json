@@ -32,7 +32,12 @@
         "build:watch": "tsc -w -p tsconfig.release.json",
         "lint": "eslint . --ext .ts,.tsx",
         "test": "jest --coverage",
-        "test:watch": "jest --watch"
+        "test:watch": "jest --watch",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint",
+        "preversion": "npm run lint",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
     },
     "keywords": [
         "moonphase",
