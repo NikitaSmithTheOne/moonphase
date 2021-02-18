@@ -1,3 +1,7 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/NikitaSmithTheOne/moonphase/Node.js%20CI)
+![NPM](https://img.shields.io/npm/l/@lab-code/moonphase)
+![npm](https://img.shields.io/npm/dm/@lab-code/moonphase)
+![npm](https://img.shields.io/npm/v/@lab-code/moonphase)
 [![TypeScript version][ts-badge]][typescript-4-1]
 [![Node.js version][nodejs-badge]][nodejs]
 
@@ -13,6 +17,7 @@ console.log(Simple(10, 2, 2021)); // 28
 console.log(Conway(15, 2, 2021)); // 3
 console.log(Sinnot(20, 2, 2021)); // 9
 ```
+> The methods return integer value from 0 to 29
 
 Declaration of the methods looks like so: 
 ```js
